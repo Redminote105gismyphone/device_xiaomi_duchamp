@@ -59,41 +59,6 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 # Product characteristics
 PRODUCT_CHARACTERISTICS := default
 
-# Rootdir
-PRODUCT_PACKAGES += \
-    init.insmod.sh \
-    init.pstore_blk.sh \
-
-PRODUCT_PACKAGES += \
-    fstab.emmc \
-    factory_init.connectivity.common.rc \
-    factory_init.connectivity.rc \
-    factory_init.project.rc \
-    factory_init.rc \
-    init.aee.rc \
-    init.batterysecret.rc \
-    init.cgroup.rc \
-    init.charge_logger.rc \
-    init.clear_abi32.rc \
-    init.connectivity.common.rc \
-    init.connectivity.rc \
-    init.mi_thermald.rc \
-    init.modem.rc \
-    init.mt6897.rc \
-    init.mt6897.usb.rc \
-    init.mtkgki.rc \
-    init.project.rc \
-    init.pstore.rc \
-    init.sensor_2_0.rc \
-    init_conninfra.rc \
-    meta_init.connectivity.common.rc \
-    meta_init.connectivity.rc \
-    meta_init.modem.rc \
-    meta_init.project.rc \
-    meta_init.rc \
-    meta_init.vendor.rc \
-    multi_init.rc \
-
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.emmc:$(TARGET_VENDOR_RAMDISK_OUT)/first_stage_ramdisk/fstab.emmc
 
