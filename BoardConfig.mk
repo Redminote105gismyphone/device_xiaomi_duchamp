@@ -159,4 +159,4 @@ BOARD_AVB_BOOT_ROLLBACK_INDEX_LOCATION := 3
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Inherit the proprietary files
-include vendor/xiaomi/duchamp/BoardConfigVendor.mk
+#include vendor/xiaomi/duchamp/BoardConfigVendor.mk
